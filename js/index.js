@@ -29,3 +29,8 @@ if (hacker1[0].localeCompare(hacker2[0]) === -1) {
 } else {
   console.log('What?! You both have the same name?');
 }
+
+// bonus 1:
+
+let count = (str.match(/et/g) || []).length;
+console.log(count);
