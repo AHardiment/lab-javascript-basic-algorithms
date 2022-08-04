@@ -12,7 +12,7 @@ if (hackerOneNameLength > hackerTwoNameLength) {
     console.log(`The driver has the longest name, it has ${hackerOneNameLength} characters`);
   } else if (hackerTwoNameLength > hackerOneNameLength) {
     console.log(`The navigator has the longest name, it has ${hackerTwoNameLength} characters`);
-  } else if (hackerOneNameLength === hackerTwoNameLength) {
+  } else {
     console.log(`Wow, you both have equally long names, ${hackerOneNameLength} characters!`);
   };
 
