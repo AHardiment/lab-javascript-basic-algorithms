@@ -13,7 +13,7 @@ if (hackerOneNameLength > hackerTwoNameLength) {
   } else if (hackerTwoNameLength > hackerOneNameLength) {
     console.log(`The navigator has the longest name, it has ${hackerTwoNameLength} characters`);
   } else if (hackerOneNameLength === hackerTwoNameLength) {
-    console.log(`Wow, you both have equally long names, ${hackerOneNameLength} characters!`)
+    console.log(`Wow, you both have equally long names, ${hackerOneNameLength} characters!`);
   };
 
 // Iteration 3: Loops
